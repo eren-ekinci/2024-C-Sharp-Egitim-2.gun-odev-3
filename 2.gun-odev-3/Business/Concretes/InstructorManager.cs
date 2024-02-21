@@ -14,7 +14,7 @@ public class InstructorManager : IInstructorService
 	IInstructorDal _instructorDal;
 	public InstructorManager(IInstructorDal instructorDal)
 	{
-		_instructorDal = _instructorDal;
+		_instructorDal = instructorDal;
 	}
 
 	public void Add(Instructor t)
